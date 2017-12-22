@@ -1,5 +1,4 @@
 import numpy as py # let me import numpy
-from matplotlib import pyplot as plt
 def compute_error_for_given_points(b, m, points):
     error = 0
     for i in range(len(points)):
